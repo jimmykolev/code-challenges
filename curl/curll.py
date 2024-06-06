@@ -13,7 +13,7 @@ def main():
     # Create the parser for the command line arguments
     parser = argparse.ArgumentParser(description="Read URL from command line and print the content of the URL") 
     # Add the arguments to the parser
-    parser.add_argument('-v', '--verbose', action='store_true', help='show headers')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Verbose mode')
     parser.add_argument('-X', '--method', help='HTTP method to use (GET, POST, PUT, DELETE, etc.)')
     parser.add_argument('-H', '--header', help='HTTP header to include in the request')
     parser.add_argument('-d', '--data', help='HTTP data to include in the request')
