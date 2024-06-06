@@ -6,7 +6,9 @@ For this challenge we’re going to build a curl clone that is focused on making
 
 
 ## Usage
-python curll.py
+Run the python script using:
+
+```python curll.py```
 
 Followed by some optional arguments:
 - -v: Verbose mode.
